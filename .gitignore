@@ -1,0 +1,22 @@
+# Python specific
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+.Python
+env/
+venv/
+*.env
+.vscode/
+
+# IDE specific (example for VS Code)
+.idea/ # For PyCharm
+
+# Operating System Files
+.DS_Store # macOS
+Thumbs.db # Windows
+
+# Library Data (Important for this project!)
+# This file stores the dynamic data and should not typically be tracked by Git
+# as it will change frequently based on system usage.
+library_data.json
